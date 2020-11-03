@@ -1,0 +1,6 @@
+API Call :-  api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+
+             http://api.openweathermap.org/data/2.5/weather?q=Jalandhar,%20IN&APPID=92b5f550214dd4ab9ba1aff91d2f9f0e
+
+API Key  :-  92767aeeea641ac8253f958f17706196 , 92b5f550214dd4ab9ba1aff91d2f9f0e
+
