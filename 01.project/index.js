@@ -9,7 +9,9 @@ const { static } = require('express');
 let app = express()
 let port = 9000
 
+//set public directory
 app.use(express.static('public'))
+
 const replaceVal = (tempVal, orgVal) => {
     let tempereture = tempVal.replace('{%tempval%}', orgVal.main.temp);
     tempereture = tempereture.replace('{%humidity%}', orgVal.main.humidity);
